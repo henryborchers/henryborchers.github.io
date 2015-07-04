@@ -9,6 +9,7 @@ table {
 }
 table, th, td{
     border: 1px solid black;
+    padding: 5px;
 }
 th {
     text-align: left;
@@ -16,4 +17,24 @@ th {
 }
 td {
     background-color: honeydew;
+}
+
+.nameClm {
+    min-width: 200px;
+}
+
+.midDataClm {
+    min-width: 105px;
+}
+
+.sections {
+    padding-left: 25px;
+}
+
+.projectType {
+    padding-left: 25px;;
+}
+
+.client {
+    padding-left: 25px;;
 }
