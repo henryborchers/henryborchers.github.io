@@ -1,3 +1,4 @@
+
 body {
     background-color: aliceblue;
 }
@@ -10,6 +11,8 @@ table {
 table, th, td{
     border: 1px solid black;
     padding: 5px;
+    vertical-align: top;
+
 }
 th {
     text-align: left;
@@ -19,12 +22,23 @@ td {
     background-color: honeydew;
 }
 
+
+.container {
+    width: 960px;
+    margin: 0 auto
+}
+
 .nameClm {
     min-width: 200px;
 }
 
+
+.longDataClm {
+    max-width: 20px;
+}
+
 .midDataClm {
-    min-width: 105px;
+    min-width: 100px;
 }
 
 .sections {
@@ -37,4 +51,63 @@ td {
 
 .client {
     padding-left: 25px;;
+}
+
+#header {
+    height: 75px;
+    position: fixed;
+    width: 100%;
+    /*margin: -15px 0 5px 0;*/
+    margin-top: -15px;
+    /*margin-right: 10px;*/
+    margin-left: 5px;
+    /*margin-bottom: 5px;*/
+
+    
+    /*padding: 0 20px 50px 200px;*/
+    padding-left: 200px;
+    /*padding-right: ;*/
+    padding-bottom: 10px;
+    
+    
+    background-color: aliceblue;
+}
+
+
+#sidebar {
+    position: fixed;
+    top: 0; bottom: 0; left: 0;
+    width: 180px;
+    height: 100%;
+    float: left;
+    background: #000;
+    box-shadow: 5px 1px 15px #888888;
+}
+#content {
+    /*border: 1px solid #000000;; width: 100px;*/
+    /*height: 50px;*/
+    margin: 15px 0 5px 0;
+    padding-left: 200px;
+    padding-top: 50px;
+    /*padding: 150px 200px 20px 200px;*/
+    background-color: aliceblue;
+}
+
+#main {
+    /*border: 2px solid #000000;*/
+
+    /*height: 1500px;*/
+    float: left;
+    width: 1024px;
+
+
+    /*margin: 5px 0 5px 0;*/
+}
+
+.projects ul {
+    list-style: none;
+    padding-left: 0;
+}
+.projects li {
+    padding-bottom: 2px;
 }
